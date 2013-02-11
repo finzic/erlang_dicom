@@ -9,7 +9,7 @@ please see /sample directory.
 	...
 
 Dcm_obj is a list of "tag" records. please see "dicom.hrl" for details.
-Currently, file read/write I/F with explicit VR can be suppoted.
+Currently, file read/write I/F with explicit VR can be supported.
 
 ## TODO
 
