@@ -1,0 +1,12 @@
+{application, erlang_dicom,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlang_dicom_app, []}},
+  {env, []}
+ ]}.

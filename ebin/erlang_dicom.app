@@ -1,0 +1,9 @@
+{application,erlang_dicom,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{erlang_dicom_app,[]}},
+              {env,[]},
+              {modules,[dicom_object,echo_patient_name,erlang_dicom,
+                        erlang_dicom_app,erlang_dicom_sup,write_file]}]}.
