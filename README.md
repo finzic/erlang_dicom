@@ -9,13 +9,14 @@ please see /sample directory.
 	...
 
 Dcm_obj is a list of "tag" records. please see "dicom.hrl" for details.
-Currently, file read/write I/F with explicit VR can be supported.
+Currently, file read/write I/F with explicit/implicit VR can be supported.
 
 ## TODO
 
- * Add support for implicit VR
+ * Add support for Big Endian
+ * Add support for SQ tag
  * Add support for network communication
 
-## Contributions
+## Contribution
 
 * Takaaki Uematsu
